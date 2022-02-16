@@ -1,6 +1,6 @@
-# TeamContactsFrontend
+# Team Contacts Frontend
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.3.
+This project contains a team member management system. Users can create or edit team members, that will be synchronized with a backend database. 
 
 ## Development server
 

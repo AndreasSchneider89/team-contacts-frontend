@@ -1,0 +1,12 @@
+<div class="list-group" *ngFor="let record of records">
+    <!--mb-2=space under Container a 2-->
+      <div  class="mb-2 list-group-item" aria-current="true">
+        <p class="d-flex w-100 justify-content-between">
+          <a routerLink="/edit/{{record.id}}" class="mb-1 h5 text-decoration-none">
+            {{record.firstName}} {{record.lastName}}
+          </a>
+          <button (click)="deleteRecord(record)" class="btn btn-sm btn-danger">x</button>
+        </p>
+        <small>{{record.email}}</small>
+      </div>  
+    </div>
